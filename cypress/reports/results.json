@@ -1,0 +1,250 @@
+[
+  {
+    "description": "    Description: The purpose of this feature is to test Practice Page features",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-practice-page-feature;radio-button-validations",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Radio button validations",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15933000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User clicks radio button3 and validate that only one radio button is checked",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User clicks radio button2 and validate that button2 is the only checked button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-practice-page-feature;suggestions-section-validation",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Suggestions section validation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User inserts South and select South Africa from the list of options",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 834000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clears the field and type Republic and select the first option listed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 383000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-practice-page-feature;show-hide-section-validation",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "show-hide section validation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User clicks on the hide button and validate that the element is hidden",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User clicks on the show button and validate that the hidden element is shown",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-practice-page-feature;table-section-validation",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "table section validation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User validates the Amount for Joe Postman from Chennai has an amount of 46",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User validates the total amount collected is 296",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "test-practice-page-feature;ifrmae-section-validation",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "ifrmae section validation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the login page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4984000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "User validates that the page has an iframe and nteract with any element within the iframe",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-practice-page-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test Practice Page Feature",
+    "tags": [],
+    "uri": "cypress\\e2e\\practicePage.feature"
+  }
+]

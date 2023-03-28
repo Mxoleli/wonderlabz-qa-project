@@ -1,0 +1,405 @@
+[
+  {
+    "description": "    Description: The purpose of this feature is to test login scenarios",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "User navigates to login page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the login page",
+            "result": {
+              "duration": 2163000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "test-login-feature;user-login-with-correct-login-details_standard-user;;2",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "User login with correct login details_standard user",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 9,
+            "name": "User inserts correct standard_user and secret_sauce and sign in",
+            "result": {
+              "duration": 787000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should be logged in",
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "User navigates to login page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the login page",
+            "result": {
+              "duration": 625000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "test-login-feature;user-login-with-locked-out-login-details_locked_out_user;;2",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "User login with locked out login details_locked_out_user",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 19,
+            "name": "User inserts locked out user details locked_out_user and secret_sauce and clicks login button",
+            "result": {
+              "duration": 733000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User should not be allowed to login",
+            "result": {
+              "duration": 18000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "User navigates to login page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User navigates to the login page",
+            "result": {
+              "duration": 626000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "test-login-feature;user-login-with-problem-user-login-details_problem_user;;2",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "User login with problem user login details_problem_user",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 28,
+            "name": "Problem User inserts problem_user and secret_sauce and clicks login button",
+            "result": {
+              "duration": 697000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 29,
+            "name": "User should be logged in",
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 30,
+            "name": "404 images should be displayed for this user",
+            "result": {
+              "duration": 404000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-login-feature",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test Login Feature",
+    "uri": "cypress\\e2e\\login.feature"
+  },
+  {
+    "description": "    Description: The purpose of this feature is to test Home page with inventory item details",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "User navigates to login page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Given User navigates to the login page",
+            "result": {
+              "duration": 713000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User inserts correct username \"standard_user\" and password \"secret_sauce\" and sign in",
+            "result": {
+              "duration": 751000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "test-product-details-page-and-checkout-flow--feature;user-validates-product-details-page",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "User validates product details page",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "User selects product to view details",
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Product overview page should be displayed with correct details",
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 4,
+        "name": "User navigates to login page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Given User navigates to the login page",
+            "result": {
+              "duration": 232000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "User inserts correct username \"standard_user\" and password \"secret_sauce\" and sign in",
+            "result": {
+              "duration": 706000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "test-product-details-page-and-checkout-flow--feature;user-validates-checkout-and-confirm-order-functionality",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "User validates checkout and confirm order functionality",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 16,
+            "name": "User selects product to view details",
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 17,
+            "name": "user clicks Add to cart button",
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 18,
+            "name": "user clicks shopping cart link",
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks checkout button",
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 20,
+            "name": "user enters details firstname, lastName and ZipPostalCode",
+            "result": {
+              "duration": 619000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 21,
+            "name": "user clicks continue",
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 22,
+            "name": "checkout overview page should be displayed with order details",
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 23,
+            "name": "confirmation message and back home button should be dispalyed",
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-product-details-page-and-checkout-flow--feature",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Test Product Details page and checkout flow  Feature",
+    "uri": "cypress\\e2e\\ProductDetails.feature"
+  }
+]

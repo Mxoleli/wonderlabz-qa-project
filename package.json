@@ -1,0 +1,31 @@
+{
+  "name": "wonderlabz-qa-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open",
+    "test": "npx cypress run",
+    "headTest": "npm run test --headed",
+    "chromeTest": "npm run test --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/reports/results.json"
+    },
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e"
+  },
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@playwright/test": "^1.32.1",
+    "cypress-iframe": "^1.0.1",
+    "multiple-cucumber-html-reporter": "^3.3.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.0"
+  }
+}
